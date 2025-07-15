@@ -68,7 +68,7 @@ LOG=bruter.log
 EXIT_AFTER_FAIL_COUNT=15
 
 # Operating System Environment
-KEYBOARD_DEVICE=/dev/hidg0
+KEYBOARD_DEVICE=/dev/input/
 ## The location of HID_KEYBOARD may be different if you are not using Kali Net Hunter
 HID_KEYBOARD=/system/xbin/hid-keyboard
 USB_DEVICES=/usr/bin/usb-devices
