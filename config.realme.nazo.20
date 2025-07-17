@@ -10,7 +10,7 @@ PIN_TYPE=PIN
 
 ## PIN_LENGTH can be set to a number
 ## It is equivalent to the -l, --length NUM commandline option
-PIN_LENGTH=4
+PIN_LENGTH=6
 
 # Timing
 ## DELAY_BETWEEN_KEYS is the period of time in seconds to wait after each key is sent
@@ -68,7 +68,7 @@ LOG=bruter.log
 EXIT_AFTER_FAIL_COUNT=15
 
 # Operating System Environment
-KEYBOARD_DEVICE=/dev/input/event0
+KEYBOARD_DEVICE=/dev/input/event1
 ## The location of HID_KEYBOARD may be different if you are not using Kali Net Hunter
 HID_KEYBOARD=/system/xbin/hid-keyboard
 USB_DEVICES=/usr/bin/usb-devices
